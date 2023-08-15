@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "178094013478",
+    "project_id": "rand-water-66b72",
+    "storage_bucket": "rand-water-66b72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178094013478:android:e25703d3ba153f3300bae7",
+        "android_client_info": {
+          "package_name": "com.randwater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178094013478-f8jdkkjdujlekmhfm3tqh7ohpqp5446q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.randwater",
+            "certificate_hash": "f777b8f6e727e47b4e6ad15b15a52737a0f38fb5"
+          }
+        },
+        {
+          "client_id": "178094013478-3tqu61ha1ptsd0j88vccdrrpgqrivrmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDLsl3EpTM-vIpX64H0xVIBdFhCF7rIGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178094013478-3tqu61ha1ptsd0j88vccdrrpgqrivrmk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "178094013478-4648f30j5m25cbbq9fkvhnr9p8g4cdv2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.RandWater"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

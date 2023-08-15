@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.01" height="14" viewBox="0 0 12.01 14">
+  <g id="notifications" transform="translate(-2377.99 -1873)">
+    <path id="icon" d="M2382,1885h4a2,2,0,1,1-4,0Zm7-1.99H2378.99V1883h-1v-2h1v-4h.1a5.014,5.014,0,0,1,9.821,0H2389v.67c.007.111.011.221.011.33s0,.22-.011.33V1881h1v2h-1v.009h0Zm-8-2.01h6.01v-2h-.181a3,3,0,1,0-5.658,0H2381Z" fill="#1e488e"/>
+  </g>
+</svg>

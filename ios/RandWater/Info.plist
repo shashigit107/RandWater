@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Rand Water</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.178094013478-mg85bgf2b0qkjhp07241quttjae06lbu</string>
+			</array>
+			<key>item 0</key>
+			<string>com.googleusercontent.apps.178094013478-mg85bgf2b0qkjhp07241quttjae06lbu</string>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+		<string>fb</string>
+		<string>telegram</string>
+		<string>twitter</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	
+	 <key>NSAppTransportSecurity</key>
+	 <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+	<!-- <dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>  -->
+	<key>NSCameraUsageDescription</key>
+	<string>Rand Water Need permission to access to your Camera for profile photo and to take photo for water Leaks.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>In Settings, you must allow RandWater to use your location in order to report water incident.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>In Settings, you must allow RandWater to use your location in order to report water incident.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>In Settings, you must allow RandWater to use your location in order to report water incident.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Rand water app is using microphone and video access to get users incidence reference</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Rand Water Need permission to access to your Photo library for profile photo and to take photo for water Leaks.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Rand Water Need permission to access to your Photo library for profile photo and to take photo for water Leaks.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Optima-Bold-Italic.otf</string>
+		<string>Optima-Italic.otf</string>
+		<string>Optima-Regular.otf</string>
+		<string>Avenir-Light.ttf</string>
+		<string>Avenir-Medium.ttf</string>
+		<string>Optima-Bold.ttf</string>
+		<string>Optima-Medium.ttf</string>
+		<string>poppins-black.ttf</string>
+		<string>Poppins-BlackItalic.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-BoldItalic.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
+		<string>Poppins-ExtraBoldItalic.ttf</string>
+		<string>Poppins-ExtraLight.ttf</string>
+		<string>Poppins-ExtraLightItalic.ttf</string>
+		<string>Poppins-Italic.ttf</string>
+		<string>Poppins-Light.ttf</string>
+		<string>Poppins-LightItalic.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-MediumItalic.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>Poppins-SemiBoldItalic.ttf</string>
+		<string>Poppins-Thin.ttf</string>
+		<string>Poppins-ThinItalic.ttf</string>
+		<string>MaterialIcons.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.977" height="61.977" viewBox="0 0 61.977 61.977">
+  <defs>
+    <filter id="btn" x="0" y="0" width="61.977" height="61.977" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_28983" data-name="Group 28983" transform="translate(-197 -186)">
+    <g transform="matrix(1, 0, 0, 1, 197, 186)" filter="url(#btn)">
+      <path id="btn-2" data-name="btn" d="M2395.288,4397.683a15.989,15.989,0,1,1-22.611,0A15.99,15.99,0,0,1,2395.288,4397.683Z" transform="translate(-2352.99 -4388)" fill="#fff"/>
+    </g>
+    <path id="pencil-alt" d="M17.261,4.992l-1.6,1.6a.416.416,0,0,1-.589,0L11.233,2.745a.416.416,0,0,1,0-.589l1.6-1.6a1.665,1.665,0,0,1,2.351,0l2.081,2.081A1.659,1.659,0,0,1,17.261,4.992Zm-7.4-1.465L.771,12.619.037,16.826A.832.832,0,0,0,1,17.788l4.207-.737L14.3,7.959a.416.416,0,0,0,0-.589L10.454,3.528a.42.42,0,0,0-.592,0ZM4.319,11.84a.483.483,0,0,1,0-.686L9.651,5.823a.485.485,0,1,1,.686.686L5,11.84a.483.483,0,0,1-.686,0ZM3.07,14.752H4.731v1.257L2.5,16.4,1.422,15.323l.391-2.233H3.07Z" transform="translate(218.976 197.925)" fill="#189fc6"/>
+  </g>
+</svg>

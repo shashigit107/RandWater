@@ -1,0 +1,54 @@
+diff --git a/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js b/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js
+index cd03253..71020c4 100644
+--- a/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js
++++ b/node_modules/react-native-google-places-autocomplete/GooglePlacesAutocomplete.js
+@@ -28,7 +28,7 @@ const defaultStyles = {
+     flex: 1,
+   },
+   textInputContainer: {
+-    flexDirection: 'row',
++    // flexDirection: 'row',
+   },
+   textInput: {
+     backgroundColor: '#FFFFFF',
+@@ -42,7 +42,7 @@ const defaultStyles = {
+   },
+   listView: {},
+   row: {
+-    backgroundColor: '#FFFFFF',
++    // backgroundColor: '#FFFFFF',
+     padding: 13,
+     minHeight: 44,
+     flexDirection: 'row',
+@@ -55,7 +55,7 @@ const defaultStyles = {
+   description: {},
+   separator: {
+     height: 0.5,
+-    backgroundColor: '#c8c7cc',
++    backgroundColor: '#FFFFFF',
+   },
+   poweredContainer: {
+     justifyContent: 'flex-end',
+@@ -825,14 +825,14 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
+                   }
+                 : _onFocus
+             }
+-            onBlur={
+-              onBlur
+-                ? (e) => {
+-                    _onBlur(e);
+-                    onBlur();
+-                  }
+-                : _onBlur
+-            }
++            // onBlur={
++            //   onBlur
++            //     ? (e) => {
++            //         _onBlur(e);
++            //         onBlur();
++            //       }
++            //     : _onBlur
++            // }
+             clearButtonMode={clearButtonMode || 'while-editing'}
+             onChangeText={_handleChangeText}
+             {...userProps}

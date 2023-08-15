@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149" height="149" viewBox="0 0 149 149">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.1" x2="0.5" y2="-0.1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e488e"/>
+      <stop offset="0.25" stop-color="#1b4fa7"/>
+      <stop offset="0.746" stop-color="#2f9fbf"/>
+      <stop offset="1" stop-color="#36abcc"/>
+    </linearGradient>
+    <filter id="btn" x="0" y="0" width="149" height="149" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#3b2d8f" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="add_btn" data-name="add btn" transform="translate(-1693.775 -1597.775)">
+    <g transform="matrix(1, 0, 0, 1, 1693.78, 1597.78)" filter="url(#btn)">
+      <circle id="btn-2" data-name="btn" cx="37" cy="37" r="37" transform="translate(37.5 22.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="_" data-name="+" d="M10.433,22a1,1,0,0,1-1-1V12.568H1a1,1,0,0,1-1-1V10.433a1,1,0,0,1,1-1H9.433V1a1,1,0,0,1,1-1h1.135a1,1,0,0,1,1,1V9.432H21a1,1,0,0,1,1,1v1.135a1,1,0,0,1-1,1H12.568V21a1,1,0,0,1-1,1Z" transform="translate(1757.275 1646.275)" fill="#fff"/>
+  </g>
+</svg>
